@@ -1,0 +1,33 @@
+{
+  "name": "validify",
+  "version": "1.0.0",
+  "description": "Validation made easy.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/validify.git"
+  },
+  "keywords": [
+    "validate",
+    "field",
+    "validation",
+    "validator"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/validify/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/validify#readme",
+  "dependencies": {
+    "err": "^1.1.1",
+    "typpy": "^2.3.1"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "devDependencies": {}
+}
