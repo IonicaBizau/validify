@@ -2,17 +2,18 @@
 
 > Validation made easy.
 
-## Installation
-
+## :cloud: Installation
+    
 ```sh
 $ npm i --save validify
 ```
 
-## Example
+            
+## :clipboard: Example
+
+        
 
 ```js
-"use strict";
-
 const validify = require("validify");
 
 console.log(validify("Hello World", String, "The input should be a string.").valid);
@@ -33,9 +34,9 @@ console.log(validify("foobar.com", /\S+@\S+/, {
 console.log(validify(42, x => x > 18 && x <= 42, "The input should be greater than 18 and lower or equal than 42.").error);
 // => [Error: The input should be greater than 18 and lower or equal than 42.]
 ```
-
-## Documentation
-
+    
+## :memo: Documentation
+        
 ### `validify(input, type, errMessage)`
 Validates the input against the validation method.
 
@@ -49,16 +50,14 @@ Validates the input against the validation method.
  - `error` (Error|null): The `Error` object (if any), or `null`.
  - `valid` (Boolean): `true` if the input is valid, `false` otherwise.
 
-## How to contribute
+        
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
-If you are using this library in one of your projects, add it in this list. :sparkles:
-
-## License
-
+## :scroll: License
+    
 [MIT][license] © [Ionică Bizău][website]
-
+    
 [paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
 [donate-now]: http://i.imgur.com/6cMbHOC.png
 
