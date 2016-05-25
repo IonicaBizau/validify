@@ -1,6 +1,6 @@
 {
   "name": "validify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Validation made easy.",
   "main": "lib/index.js",
   "scripts": {
@@ -29,5 +29,17 @@
   "directories": {
     "example": "example"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "scripts/",
+    "cli.js",
+    "index.js"
+  ]
 }
