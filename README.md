@@ -1,17 +1,20 @@
-# validify [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/validify.svg)](https://www.npmjs.com/package/validify) [![Downloads](https://img.shields.io/npm/dt/validify.svg)](https://www.npmjs.com/package/validify) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+
+# validify
+
+ [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/validify.svg)](https://www.npmjs.com/package/validify) [![Downloads](https://img.shields.io/npm/dt/validify.svg)](https://www.npmjs.com/package/validify) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Validation made easy.
 
 ## :cloud: Installation
-    
+
 ```sh
 $ npm i --save validify
 ```
 
-            
+
 ## :clipboard: Example
 
-        
+
 
 ```js
 const validify = require("validify");
@@ -34,9 +37,10 @@ console.log(validify("foobar.com", /\S+@\S+/, {
 console.log(validify(42, x => x > 18 && x <= 42, "The input should be greater than 18 and lower or equal than 42.").error);
 // => [Error: The input should be greater than 18 and lower or equal than 42.]
 ```
-    
+
 ## :memo: Documentation
-        
+
+
 ### `validify(input, type, errMessage)`
 Validates the input against the validation method.
 
@@ -50,14 +54,21 @@ Validates the input against the validation method.
  - `error` (Error|null): The `Error` object (if any), or `null`.
  - `valid` (Boolean): `true` if the input is valid, `false` otherwise.
 
-        
+
+
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
+## :dizzy: Where is this library used?
+If you are using this library in one of your projects, add it in this list. :sparkles:
+
+
+ - [`validate5`](https://github.com/IonicaBizau/validate5#readme)—Form validations made easy.
+
 ## :scroll: License
-    
+
 [MIT][license] © [Ionică Bizău][website]
-    
+
 [paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
 [donate-now]: http://i.imgur.com/6cMbHOC.png
 
