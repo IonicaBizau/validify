@@ -1,6 +1,6 @@
 {
   "name": "validify",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Validation made easy.",
   "main": "lib/index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "validation",
     "validator"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/validify/issues"
@@ -34,12 +34,11 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
     "index.js"
   ]
