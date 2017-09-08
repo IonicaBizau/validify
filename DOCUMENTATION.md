@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Validates the input against the validation method.
 
 #### Params
+
 - **Anything** `input`: The input value.
 - **Function|String|RegExp** `type`: The validation type.
 - **Object|Error|String** `errMessage`: The error message interpreted by [`err`](http://github.com/IonicaBizau/err).
