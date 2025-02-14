@@ -1,6 +1,6 @@
 {
   "name": "validify",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Validation made easy.",
   "main": "lib/index.js",
   "scripts": {
@@ -41,6 +41,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
